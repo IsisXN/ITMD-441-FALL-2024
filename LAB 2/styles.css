@@ -75,7 +75,7 @@
 #grid-section2 .gridboxblue {
 grid-column: 2; /* Positions blue box on the right side */
     grid-row: 1 / span 3; /* Makes blue box span the full height */
-	 width: calc(100% + 230px); /* Extend the width to the right edge */
+	 width: calc(100% + 225px); /* Extend the width to the right edge */
 	     z-index: 3; /* Higher z-index to bring the blue box in front */
 }
 
@@ -84,7 +84,7 @@ grid-column: 2; /* Positions blue box on the right side */
     grid-row: 2; /* Centers red box in the middle row */
     justify-self: center; /* Centers red box horizontally within its grid cell */
 	width: calc(100% + 250px); /* Extend the width to cover the left side */
-    margin-left: -220px; /* Pull the red box to the left to reach the edge */
+    margin-left: -218px; /* Pull the red box to the left to reach the edge */
 }
 
 /* end Grid Part 2 */
