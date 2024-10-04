@@ -62,7 +62,7 @@
 /* Grid Part 1 */
 
 #grid-section1 .grid {
-  display: grid;
+ display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal-width columns */
     grid-template-rows: 1fr 1fr 1fr; /* Three equal-height rows */
 }
@@ -73,8 +73,9 @@
 /* Grid Part 2 */
 
 #grid-section2 .gridboxblue {
-grid-column: 2; /* Positions blue box on the right side */
+  grid-column: 2; /* Positions blue box on the right side */
     grid-row: 1 / span 3; /* Makes blue box span the full height */
+    align-self: stretch; /* Stretches blue box to fill column */
 }
 
 #grid-section2 .gridboxred {
