@@ -83,7 +83,7 @@ grid-column: 2; /* Positions blue box on the right side */
     grid-row: 2; /* Centers red box in the middle row */
     justify-self: center; /* Centers red box horizontally within its grid cell */
 	width: calc(100% + 300px); /* Extend the width to cover the left side */
-    margin-left: -500px; /* Pull the red box to the left to reach the edge */
+    margin-left: -300px; /* Pull the red box to the left to reach the edge */
 }
 
 /* end Grid Part 2 */
