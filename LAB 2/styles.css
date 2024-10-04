@@ -20,8 +20,7 @@
 
 #flex-section2 li {
     flex: 1;
-	 list-style-type: disc; /* Adds bullet points */
-    padding-left: 20px; /* Adds space for bullets */
+	    list-style-type: none; /* Removes bullet points */
 }
 
 #flex-section2 .item1 {
