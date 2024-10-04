@@ -75,7 +75,7 @@
 #grid-section2 .gridboxblue {
 grid-column: 2; /* Positions blue box on the right side */
     grid-row: 1 / span 3; /* Makes blue box span the full height */
-	 width: calc(100% + 10px); /* Extend the width to the right edge */
+	 width: calc(100% + 100px); /* Extend the width to the right edge */
 }
 
 #grid-section2 .gridboxred {
