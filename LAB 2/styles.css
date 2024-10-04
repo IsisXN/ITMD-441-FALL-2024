@@ -79,7 +79,7 @@ grid-column: 2; /* Positions blue box on the right side */
 
 #grid-section2 .gridboxred {
   grid-column: 0; /* Positions red box on the left side */
-    grid-row: 5; /* Centers red box in the middle row */
+    grid-row: 2; /* Centers red box in the middle row */
     justify-self: center; /* Centers red box horizontally within its grid cell */
 }
 
