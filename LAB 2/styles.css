@@ -76,6 +76,7 @@
 grid-column: 2; /* Positions blue box on the right side */
     grid-row: 1 / span 3; /* Makes blue box span the full height */
 	 width: calc(100% + 230px); /* Extend the width to the right edge */
+	     z-index: 3; /* Higher z-index to bring the blue box in front */
 }
 
 #grid-section2 .gridboxred {
