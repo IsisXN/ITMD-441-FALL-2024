@@ -16,11 +16,12 @@
 #flex-section2 ul {
     display: flex;
 	    padding: 0;
-
 }
 
 #flex-section2 li {
     flex: 1;
+	 list-style-type: disc; /* Adds bullet points */
+    padding-left: 20px; /* Adds space for bullets */
 }
 
 #flex-section2 .item1 {
