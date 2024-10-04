@@ -85,8 +85,6 @@ grid-column: 2; /* Positions blue box on the right side */
 	width: calc(100% + 50px); /* Extend the width to cover the left side */
     margin-left: -25px; /* Pull the red box to the left to reach the edge */
     position: absolute; /* Allows for overlap with blue box */
-    top: 0; /* Aligns to the top */
-    left: 0; /* Aligns to the left */
 }
 
 /* end Grid Part 2 */
