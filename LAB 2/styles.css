@@ -26,10 +26,11 @@
 }
 
 #flex-section2 .item2 {
-
+    order: 3;
 }
 
 #flex-section2 .item3 {
+    order: 2;
 
 }
 
@@ -39,11 +40,18 @@
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
-
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 #flex-section3 .tags ul {
-
+  display: flex;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
 }
 
 /* end Flexbox Part 3 */
