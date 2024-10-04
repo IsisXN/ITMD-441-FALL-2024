@@ -75,10 +75,11 @@
 #grid-section2 .gridboxblue {
 grid-column: 2; /* Positions blue box on the right side */
     grid-row: 1 / span 3; /* Makes blue box span the full height */
+	 width: calc(100% + 10px); /* Extend the width to the right edge */
 }
 
 #grid-section2 .gridboxred {
-  grid-column: ; /* Positions red box on the left side */
+  grid-column: 0; /* Positions red box on the left side */
     grid-row: 2; /* Centers red box in the middle row */
     justify-self: center; /* Centers red box horizontally within its grid cell */
 }
